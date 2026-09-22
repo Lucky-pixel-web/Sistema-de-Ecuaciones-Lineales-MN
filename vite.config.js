@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   base: '/Sistema-de-Ecuaciones-Lineales-MN/',
-  plugins: [react()],   
+  plugins: [react(), tailwindcss()], 
 })
