@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "./**/*.{js,jsx}";
+
 body { font-family: 'Space Grotesk', sans-serif; background:#05070d; }
 
 .sidebar-scroll::-webkit-scrollbar { width: 6px; }
